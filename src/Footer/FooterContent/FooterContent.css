@@ -1,0 +1,39 @@
+.items{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    width:100%;
+}
+
+.items h6{
+    font-size:2rem;
+    color:white;
+    width:100%;
+}
+
+.items li{
+    list-style-type: none;
+    padding:1rem 0 1rem 0;
+}
+
+.items li a{
+    text-decoration:none;
+    color:white;
+    font-size:1.25rem;
+}
+
+.items h6{
+    display:flex;
+    align-items:center;
+}
+
+@media(min-width:768px){
+    .items{
+        width:42%;
+    }
+}
+
+@media(min-width:1000px){
+    .items{
+        width:22%;
+    }
+}

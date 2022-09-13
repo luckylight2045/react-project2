@@ -1,0 +1,43 @@
+.teamContainer{
+    width:100%;
+    margin:auto;
+    background-image:url('../../public/camera-wp.png');
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-bottom:1rem;
+}
+
+.team-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:85%;
+    margin:5rem auto;
+}
+
+.team-text > h1{
+    font-size:2.5rem;
+    margin:2rem 0;
+    width:100%;
+    text-align:center;
+}
+
+.team-text h1 span{
+    color:#00CDCD;
+}
+
+.team-text p{
+    font-family:2rem;
+    font-weight:bold;
+    width:80%;
+    text-align:center;
+}
+
+.members{
+    width:85%;
+    margin:5rem auto;
+    display:flex;
+    flex-wrap:wrap;
+}

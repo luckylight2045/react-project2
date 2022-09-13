@@ -1,0 +1,91 @@
+@font-face{
+    font-family:'Haleh';
+    src:'fonts/B Haleh.TTF';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.content-container{
+   width:85%;
+   margin:2rem auto;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-between;
+   margin-top:3rem;
+}
+
+.text-container {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:1rem;
+    width:45%;
+}
+
+.text-container .shoma{
+    color:white;
+    font-size:1.25rem;
+    font-family:'Haleh';
+}
+
+.text-container > h1{
+    color:white;
+    font-size:90px;
+    font-family:'Haleh';
+}
+
+.text-container .lorem{
+    color:white;
+    font-size:1.25rem;
+    text-align:justify;
+}
+
+.text-container a{
+    color:#00CDCD;
+    background-color:white;
+    border-radius:2rem;
+    padding:.5rem 1.5rem;
+    text-decoration:none;
+    font-size:1.25rem;
+}
+
+.text-container a:hover{
+    background-color:rgb(16, 135, 172);
+    color:white;
+    scale:1.1;
+}
+
+.mobile-img{
+    max-width:300px;
+    width:50%;
+}
+
+.mobile-img img{
+    width:100%;
+}
+
+@media (max-width:800px) {
+    .mobile-img {
+        width:100%;
+    }
+    .mobile-img img{
+        text-align:end;
+    }
+    .header{
+        height:150vh;
+    }
+    .text-container{
+        width:100%;
+    }
+}
+
+@media(max-width:400px) {
+    .text-container > h1{
+        font-size:70px;
+    }
+}
